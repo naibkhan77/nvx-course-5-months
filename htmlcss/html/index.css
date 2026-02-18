@@ -1,0 +1,75 @@
+body {
+    border-style: solid;
+}
+
+p {
+    text-align: center;
+    color: red;
+}
+/* id  */
+#para1 {
+    text-align: center;
+    color: blue;
+}
+/* class */
+.para1 {
+    text-align: center;
+    color: green;
+}
+/* specific class */
+p.para2 {
+    text-align: center; 
+    color: orange;
+    margin-top: 100px; 
+    margin-bottom: 100px; 
+    margin-right: 150px; 
+    margin-left: 80px; 
+    border-style: solid;
+}
+
+/* for padding */
+
+.padding {
+    padding-top: 50px;
+    padding-right: 10px;  
+    padding-bottom: 50px; 
+    padding-left: 80px; 
+    border: solid;
+    
+}
+
+/* flex container */
+
+.flexContainer {
+    display: flex; 
+    background-color: dodgerblue;
+}
+
+.flexContainer div {
+    background-color: #f1f1f1;
+    font-size: 30px; 
+    padding: 20px;
+    margin: 10px;
+}
+
+.flex-container2 {
+    background-color: dodgerblue; 
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    flex-direction: row-reverse; 
+     /* flex-direction: column-reverse; */
+
+     /* css justify-content property  */
+
+     /* justify-content: center; */
+}
+
+.flex-container2 div {
+    background-color: #f1f1f1; 
+    font-size: 30px;
+    padding: 20px; 
+    margin: 10px; 
+}
+
+
