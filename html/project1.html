@@ -1,0 +1,166 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Car project</title>
+
+        <link rel="stylesheet" href="./project1.css" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!-- Navigaton -->
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="#" class="nav-logo">LUXE MOTORS</a>
+                <ul class="nav-links">
+                    <li><a href="#vehicles">Vehicles</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Experience Luxury</h1>
+                <p>
+                    Discover our exclusive collection of premium vehicles
+                    crafted for those who demand the extraordinary.
+                </p>
+                <a href="#vehicles" class="btn-primary"> View collection</a>
+            </div>
+        </section>
+
+        <!-- vehicle cars section  -->
+        <section id="vehicles">
+            <h1 class="vehicles-title">Our Collection</h1>
+
+            <div class="vehicle-card">
+                <img src="./images1.jpg" alt="" style="width: 100%" />
+                <h1>Ferrary</h1>
+                <p id="price">$89,900</p>
+                <p>
+                    Twin-turbo engine, premium leather interior advanced driver
+                    assistance system
+                </p>
+                <p><button class="btn-primary">VIEW DETAILS</button></p>
+            </div>
+
+            <div class="vehicle-card">
+                <img src="images2.jpg" alt="" style="width: 100%" />
+                <h1>Ferrary</h1>
+                <p id="price">$72,500</p>
+                <p>
+                    Hybrid engine, premium leather interior advanced driver
+                    assistance system
+                </p>
+                <p><button class="btn-primary">VIEW DETAILS</button></p>
+            </div>
+
+            <div class="vehicle-card">
+                <img
+                    src="./images4.jpg"
+                    alt=""
+                    style="width: 100%"
+                    height="34%" />
+                <h1>Ferrary</h1>
+                <p id="price">$134,000</p>
+                <p>
+                    Hybrid engine, premium leather interior advanced driver
+                    assistance system
+                </p>
+                <p><button class="btn-primary">VIEW DETAILS</button></p>
+            </div>
+        </section>
+
+        <!-- why choose us section -->
+        <section id="why-us">
+            <h1 class="why-us-heading">WHY CHOOSE US</h1>
+            <div class="row">
+                <div class="why-us-column">
+                    <i class="fa-solid fa-trophy"></i>
+                    <h1>Award Winning</h1>
+                    <p>
+                        Recognized for excellence in automotive design and
+                        engineering
+                    </p>
+                </div>
+                <div class="why-us-column">
+                    <i class="fa-solid fa-wrench"></i>
+                    <h1>Expert Service</h1>
+                    <p>
+                        Factory-Trined technicians with state of the art
+                        facilities
+                    </p>
+                </div>
+                <div class="why-us-column">
+                    <i class="fa-duotone fa-regular fa-gem"></i>
+                    <h1>Premuim Selection</h1>
+                    <p>
+                        Curated collection of the finest vehicles in the market
+                    </p>
+                </div>
+                <div class="why-us-column">
+                    <i class="fa-solid fa-handshake"></i>
+                    <h1>Trusted Partner</h1>
+                    <p>Trusted by thousands of satisfied customers worldwide</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section -->
+        <section id="contact">
+            <h1 class="contact-heading">GET IN TOUCH</h1>
+            <div class="flex-div">
+            <div class="contact-div">
+                <h1>Visit Our Showroom</h1>
+                <p>123 Luxury Avenue, Lahore pakistan</p>
+                <p>phone: 03259840072</p>
+                <p>Email: naibkhan096@gmail.com</p>
+                <p>WhatsApp: 03259840072</p>
+            </div>
+
+            <div class="label-div">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input
+                        type="text"
+                        id="fname"
+                        name="firstname"
+                        placeholder="Your name.." />
+
+                    <label for="lname">Last Name</label>
+                    <input
+                        type="text"
+                        id="lname"
+                        name="lastname"
+                        placeholder="Your last name.." />
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="pakistan">Pakistan</option>
+                        <option value="UAE">UAE</option>
+                        <option value="Qater">Qatar</option>
+                    </select>
+
+                    <form>
+                     <textarea>Some text...</textarea>
+                    </form>
+
+                    
+                </form>
+            </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+    </body>
+</html>

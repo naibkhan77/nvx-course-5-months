@@ -73,3 +73,18 @@ p.para2 {
 }
 
 
+/*  grid-tracks */
+
+.grid-tracks {
+    display: grid; 
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: dodgerblue; 
+}
+
+.grid-tracks div {
+    background-color: #f1f1f1; 
+    font-size: 30px; 
+    padding: 20px; 
+    margin: 10px; 
+}
+
